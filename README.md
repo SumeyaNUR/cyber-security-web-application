@@ -1,21 +1,53 @@
-# Cyber Security Web Application Project
+# Cyber Security Web Application
 
-This repository contains a university cyber security project involving a multi-page web application with authentication, user roles, document management and security-focused functionality.
+A university cyber security project demonstrating authentication, role-based access control, document management and security-focused web functionality.
 
-## Project Components
+## Overview
 
-- Login and authentication pages
-- Role-based user access
-- Document management
-- Contact and information pages
-- Legal and policy content
-- News and stories pages
-- Multi-page HTML interface
+The project is a multi-page web application built to explore common cyber security and access-control concepts in a controlled academic environment.
 
-## Purpose
+It includes different user roles with different permissions, login controls, security questions, document management functions and simulated security logging.
 
-The project was developed to explore web application functionality and cyber security concepts in a controlled academic environment.
+## Security Features
 
-## Security
+* User authentication
+* Role-based access control for admin, staff and customer users
+* Security-question verification
+* Login attempt restrictions
+* Password strength checking
+* User activity logging using localStorage
+* Document access permissions
+* Privilege management
+* Simulated document backups
+* Personal-data download warnings
+* GDPR and privacy-related functionality
 
-Any credentials used during development were created for a local test environment and are not included in this public repository.
+## Document Management
+
+The document management system demonstrates different access levels based on user role.
+
+* Admin users have higher-level document and privilege controls
+* Staff users have selected document management permissions
+* Customer users have restricted access
+* Actions are logged for auditing purposes
+* Document changes include simulated backup functionality
+
+## Technologies
+
+* HTML
+* CSS
+* JavaScript
+* Browser Local Storage
+* Role-Based Access Control
+* Authentication concepts
+* Web security concepts
+
+## Project Purpose
+
+This project was developed as part of university cyber security work to demonstrate web application security concepts including authentication, authorisation, access control, auditing and protection of sensitive information.
+
+## Security Notice
+
+This repository is an academic demonstration. Authentication and storage are simulated client-side and are not intended for production use.
+
+All credentials included in the public version are demonstration credentials only.
