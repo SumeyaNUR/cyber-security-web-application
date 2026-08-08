@@ -1,23 +1,21 @@
-# cybertask
-VM login details:
-user:user
-password:abc123
+# Cyber Security Web Application Project
 
-website login details:
+This repository contains a university cyber security project involving a multi-page web application with authentication, user roles, document management and security-focused functionality.
 
-admin:
-    user: admin
-    password: admin123
-    2FA answer: blue
+## Project Components
 
-staff:
-    user:staff
-    password:staff123
-    2FA answer: green
+- Login and authentication pages
+- Role-based user access
+- Document management
+- Contact and information pages
+- Legal and policy content
+- News and stories pages
+- Multi-page HTML interface
 
-customer:
-    user:customer
-    password:customer123
-    2FA answer: red
+## Purpose
 
-*those logins are also the same for the document management system.
+The project was developed to explore web application functionality and cyber security concepts in a controlled academic environment.
+
+## Security
+
+Any credentials used during development were created for a local test environment and are not included in this public repository.
